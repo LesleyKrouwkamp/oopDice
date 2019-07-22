@@ -12,7 +12,7 @@ describe('DiceFactory', function(){
             j = new DiceTester(20, 100);
         });
         it('should check if the dice is less than or equal to 20', function(){
-            expect(j.testDie()).toBe(20, 50);
+            expect(j.testDie()).toBe(20, 100);
         });
     });
 });

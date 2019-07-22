@@ -46,5 +46,5 @@ class DiceTester{
         }
         return numCount;
         }
-        var test1 = new DiceTester(dice, 2000);
+        var test1 = new DiceTester(dice, 100);
         test1.testDie(); 
